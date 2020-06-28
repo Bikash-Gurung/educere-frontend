@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-modal": "^3.10.5",
     "axios": "^0.19.2",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-modal": "^3.11.2",
@@ -20,7 +21,8 @@
     "react-scripts": "3.4.1",
     "react-toastify": "^6.0.5",
     "secure-ls": "^1.2.6",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,7 +31,9 @@
     "eject": "react-scripts eject",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,js,tsx}'",
     "lint:fix": "tslint --fix -c tslint.json 'src/**/*.{ts,js,tsx}'",
-    "prettify": "prettier --single-quote --write \"src/**/*.{ts,js,json,tsx}\""
+    "prettify": "prettier --single-quote --write \"src/**/*.{ts,js,json,tsx}\"",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -68,5 +72,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "homepage": "httos://Bikash-Gurung.github.io/educere-frontend"
 }
