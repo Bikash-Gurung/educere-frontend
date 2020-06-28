@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c69edec6fce83e468178f3a0e6537c5a",
+    "revision": "e23c1f2ed48187cd5cc94d0a2cf59100",
     "url": "/educere-frontend/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/educere-frontend/static/css/2.d34346ea.chunk.css"
   },
   {
-    "revision": "c44c573f3a8289030a77",
+    "revision": "0859dc3b0f3c11cc5413",
     "url": "/educere-frontend/static/css/main.a94526b1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/educere-frontend/static/js/2.e13f2e83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c44c573f3a8289030a77",
-    "url": "/educere-frontend/static/js/main.20dca847.chunk.js"
+    "revision": "0859dc3b0f3c11cc5413",
+    "url": "/educere-frontend/static/js/main.6179b270.chunk.js"
   },
   {
     "revision": "4f636e116dc59a823e74",
